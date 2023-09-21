@@ -11,12 +11,12 @@ Optical Character Recognition (OCR) technology plays a vital role in transformin
 
 Sample name | Description
 --- | ---
-[OCR on entire PDF]() | Convert the entire scanned PDF document into searchable PDF document. 
-[OCR for region of PDF]() | Convert the region of scanned PDF document into searchable PDF document. 
-[OCR on image and convert to PDF]() | Convert a scanned image into a searchable and selectable PDF document. 
-[OCR on rotated PDF]() | Convert rotated scanned PDF document into searchable PDF document. 
-[Get OCRed text and bounds from scanned PDF]() | Retrieve OCR'ed text and its bounds from a scanned PDF document. 
-[OCR on unicode characters]() | Perform OCR with Unicode characters in image file. 
+[OCR on entire PDF](https://github.com/SyncfusionExamples/ocr-examples-csharp/tree/master/OCR-on-entire-PDF-document) | Convert the entire scanned PDF document into searchable PDF document. 
+[OCR for region of PDF](https://github.com/SyncfusionExamples/ocr-examples-csharp/tree/master/OCR-on-region-of-PDF-document) | Convert the region of scanned PDF document into searchable PDF document. 
+[OCR on image and convert to PDF](https://github.com/SyncfusionExamples/ocr-examples-csharp/tree/master/OCR-on-image-and-convert-to-PDF-document) | Convert a scanned image into a searchable and selectable PDF document. 
+[OCR on rotated PDF](https://github.com/SyncfusionExamples/ocr-examples-csharp/tree/master/OCR-on-rotated-PDF-document) | Convert rotated scanned PDF document into searchable PDF document. 
+[Get OCRed text and bounds from scanned PDF](https://github.com/SyncfusionExamples/ocr-examples-csharp/tree/master/Get-OCR-text-and-its-bounds-from-PDF) | Retrieve OCR'ed text and its bounds from a scanned PDF document. 
+[OCR on unicode characters](https://github.com/SyncfusionExamples/ocr-examples-csharp/tree/master/Perform-OCR-with-unicode-characters-in-a-PDF-document) | Perform OCR with Unicode characters in image file. 
 
 ## OCR for an entire scanned PDF document
 
@@ -43,6 +43,9 @@ using (OCRProcessor processor = new OCRProcessor())
 }
 
 ```
+
+By executing this code example, you will get a PDF document like in the following screenshot.
+<img src="Screenshots/ocr-output-image.png" alt="Filled PDF Form" width="100%" Height="Auto"/>
 
 ## OCR for a region of the scanned PDF document 
 
@@ -78,6 +81,9 @@ using (OCRProcessor processor = new OCRProcessor())
 
 ```
 
+By executing this code example, you will get a PDF document like in the following screenshot.
+<img src="Screenshots/OCR-region-output.png" alt="Filled PDF Form" width="100%" Height="Auto"/>
+
 ## OCR on image and convert it to a PDF document  
 
 With the aid of our library, any scanned image can be transformed into a searchable and selectable PDF document with ease.
@@ -103,6 +109,9 @@ using (OCRProcessor processor = new OCRProcessor())
 
 ```
 
+By executing this code example, you will get a PDF document like in the following screenshot.
+<img src="Screenshots/ocr-output-image.png" alt="Filled PDF Form" width="100%" Height="Auto"/>
+
 ## OCR on rotated page of PDF document  
 
 Here is the code example demonstrating how to perform OCR on a rotated PDF document. 
@@ -126,6 +135,9 @@ using (OCRProcessor processor = new OCRProcessor())
 }
 
 ```
+
+By executing this code example, you will get a text document like in the following screenshot.
+<img src="Screenshots/OutputText.png" alt="Filled PDF Form" width="100%" Height="Auto"/>
 
 ## Get OCRed text and bounds from scanned PDF document  
 
@@ -189,6 +201,9 @@ using (OCRProcessor processor = new OCRProcessor())
 } 
 
 ```
+
+By executing this code example, you will get a text document like in the following screenshot.
+<img src="Screenshots/Unicode_characters.png" alt="Filled PDF Form" width="100%" Height="Auto"/>
 
 # How to run the examples
 * Download this project to a location in your disk. 
